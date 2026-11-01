@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MPHolubLab9</string>
+    <string name="lab_title">Лабораторна робота №9</string>
+    <string name="design_title">Дизайн Android-додатку</string>
+    <string name="java_label">JAVA</string>
+    <string name="profile">Профіль</string>
+    <string name="student_profile">Студентський профіль</string>
+    <string name="specialty">Комп\'ютерні науки • Android</string>
+    <string name="view_profile">Переглянути профіль</string>
+    <string name="about_work">Про роботу</string>
+    <string name="work_description">Власний дизайн із RelativeLayout, кольорами, шрифтом та індивідуальними підписами кнопок.</string>
+    <string name="home">Головна</string>
+    <string name="contact">Зв\'язок</string>
 </resources>

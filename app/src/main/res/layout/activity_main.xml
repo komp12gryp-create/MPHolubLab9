@@ -20,7 +20,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="38dp"
             android:fontFamily="sans-serif-medium"
-            android:text="Лабораторна робота №9"
+            android:text="@string/lab_title"
             android:textColor="@color/white"
             android:textSize="22sp" />
 
@@ -30,7 +30,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="72dp"
             android:fontFamily="sans-serif"
-            android:text="Дизайн Android-додатку"
+            android:text="@string/design_title"
             android:textColor="@color/header_text"
             android:textSize="15sp" />
 
@@ -41,7 +41,7 @@
             android:layout_marginTop="40dp"
             android:layout_marginEnd="28dp"
             android:fontFamily="sans-serif-medium"
-            android:text="JAVA"
+            android:text="@string/java_label"
             android:textColor="@color/accent"
             android:textSize="14sp" />
 
@@ -64,7 +64,7 @@
         <ImageView
             android:layout_width="82dp"
             android:layout_height="82dp"
-            android:contentDescription="Профіль"
+            android:contentDescription="@string/profile"
             android:scaleType="fitCenter"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:fontFamily="sans-serif-medium"
-            android:text="Студентський профіль"
+            android:text="@string/student_profile"
             android:textColor="@color/text_dark"
             android:textSize="20sp" />
 
@@ -82,7 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:fontFamily="sans-serif"
-            android:text="Комп'ютерні науки • Android"
+            android:text="@string/specialty"
             android:textColor="@color/text_muted"
             android:textSize="14sp" />
 
@@ -94,7 +94,7 @@
             android:layout_marginEnd="34dp"
             android:backgroundTint="@color/blue"
             android:fontFamily="sans-serif-medium"
-            android:text="Переглянути профіль"
+            android:text="@string/view_profile"
             android:textAllCaps="false"
             android:textColor="@color/white" />
 
@@ -117,7 +117,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="Про роботу"
+            android:text="@string/about_work"
             android:textColor="@color/text_dark"
             android:textSize="17sp" />
 
@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:fontFamily="sans-serif"
-            android:text="Власний дизайн із RelativeLayout, кольорами, шрифтом та індивідуальними підписами кнопок."
+            android:text="@string/work_description"
             android:textColor="@color/text_muted"
             android:textSize="14sp" />
 
@@ -149,7 +149,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/blue_dark"
             android:fontFamily="sans-serif-medium"
-            android:text="Головна"
+            android:text="@string/home"
             android:textAllCaps="false"
             android:textColor="@color/white" />
 
@@ -160,7 +160,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/accent"
             android:fontFamily="sans-serif-medium"
-            android:text="Профіль"
+            android:text="@string/profile"
             android:textAllCaps="false"
             android:textColor="@color/blue_dark" />
 
@@ -171,7 +171,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/blue_dark"
             android:fontFamily="sans-serif-medium"
-            android:text="Зв'язок"
+            android:text="@string/contact"
             android:textAllCaps="false"
             android:textColor="@color/white" />
 
